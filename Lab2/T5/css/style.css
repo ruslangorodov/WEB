@@ -1,0 +1,149 @@
+body{
+	background-color: #A9A9A9;
+}
+
+.main{
+	width: 800px;
+	height: 1750px;
+	margin: 20px auto;
+}
+
+.header{
+	width: 100%;
+	height: 180px;
+	background: url(../img/header_bg.gif);
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+p{
+	margin: 0 60px;
+	font-size: 14pt;
+}
+
+.op{
+	margin-top: 20px;
+}
+
+span{
+	font-weight: bold;
+}
+
+.big{
+	width: 330px;
+	height: 300px;
+}
+
+.small{
+	width: 213px;
+	height: 300px;
+}
+
+.fl1{
+	float:left;
+	width: 330px;
+	height: 460px;
+}
+
+.fl2{  
+	width: 330px;
+	height: 460px;
+	float: left;
+	margin-left: 20px;
+}
+
+.fl3{
+	width: 213px;
+	height: 460px;
+	float: left;
+	margin-top: 30px;
+}
+
+.fl4{
+	width: 213px;
+	height: 460px;
+	float: left;
+	margin: 30px 0 0 20px;
+
+}
+
+
+div{
+	background-color: #FFFFFF;
+}
+
+.wrap{
+	width: 680px;
+	height: 980px;
+	margin: 30px 60px 0 60px;
+}
+
+.text{
+	margin: 30px 0 0 0;
+}
+
+.button1{
+	margin-top: 30px;
+	font-size: 14pt;
+	background-color: #DC143C;
+	height: 40px;
+	width: 100%;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+}
+
+.button2{
+	margin-top: 51px;
+	font-size: 14pt;
+	background-color: #DC143C;
+	height: 40px;
+	width: 100%;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+
+}
+
+.button3{
+	margin-top: 30px;
+	font-size: 14pt;
+	background-color: #DC143C;
+	height: 40px;
+	width: 100%;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+}
+
+.buttonFacebook{
+	margin: 60px;
+	font-size: 14pt;
+	background-color: #DC143C;
+	height: 40px;
+	width: 680px;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+}
+
+.footer{
+	margin: 60px auto;
+	text-align: center;
+	background-color:  #A9A9A9;
+	color: #FFFFFF;
+}
+.footertext{
+	font-size: 10pt;
+}
+
+.footeref{
+	margin: 10px;
+	font-size: 10pt;
+}
