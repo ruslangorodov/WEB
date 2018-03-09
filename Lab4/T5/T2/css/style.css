@@ -1,0 +1,30 @@
+*{
+	background: cadetblue;
+}
+
+.ccol{
+	background: green;
+}
+
+.main{
+	margin: 200px auto;
+}
+
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th{
+	text-transform: uppercase;
+	color: white;
+}
+
+td{
+	background: #85F1C3;
+	padding: 0 20px 0 0;
+}
+
+td:nth-child(even){
+	background: #367E60;
+}

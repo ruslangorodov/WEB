@@ -1,0 +1,46 @@
+.main{
+	border-top: 5px solid green;
+	border-bottom: 5px solid green;
+	border-right: 5px solid gray;
+	border-left: 5px solid gray;
+	margin: 200px auto;
+}
+
+.t1{
+	color: green;
+	text-align: center;
+	font-size: 30pt;
+	padding: 30px 100px;
+}
+
+.t2{
+	color: white;
+	background: green;
+	font-size: 32pt;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.t3{
+	text-align: center;
+	color: gray;
+	padding: 10px 0;
+}
+
+tr:nth-child(even){
+	background: lightgray;
+}
+
+.t4{
+	text-align: center;
+	padding: 30px 0;
+}
+
+.t4 button{
+	font-size: 14pt;
+	border: 3px solid green;
+	border-radius: 2px;
+	padding: 5px 20px;
+	background: white;
+	color: green;
+}

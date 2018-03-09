@@ -1,0 +1,33 @@
+*{
+	background: cadetblue;
+}
+
+.main{
+	margin: 200px auto;
+}
+
+table, th, td{
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+th{
+	color: white;
+	background: #3537AC;
+}
+
+td{
+	background: #79A0F7;
+}
+
+.company{
+	width: 150px;
+	height: 30px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+th, td{
+	width: 50px;
+	text-align: center;
+}
