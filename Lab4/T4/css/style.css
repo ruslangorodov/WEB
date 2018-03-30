@@ -1,21 +1,120 @@
-*{
-	background: #140A00;
+* {
+    left: 0;
+    top: 0;
+}
+
+body{
+    background: black;
 }
 
 .main{
-	margin: 40px auto;
-	width: 80%;
-	height: 600px;
-	background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 900px;
+    height: 500px;
+    background-color: rgb(20, 20, 15);
+    padding: 30px 30px 30px 50px;
+    position: absolute;
+}
+
+.burger-italian{
+    margin-left: 40px;
+    margin-top: 175px;
+    font: bold 50px 'Italiana';
+    color:  rgb(255, 255, 255);
+    padding-top: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 355px;
+    line-height: 45px;
+}
+
+.burger-italian span{
+    color: rgb(240, 195, 55);
+}
+
+.burger-italian p{
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.menu{
+    padding-top: 20px;
+    float: left;
+    text-align: center;
+    width: 550px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
 }
 
 .burger{
-	width: 40%;
-	height: 100%;
-	display: 
+    padding: 15px 25px;
+    width: 220px;
+    float: left;
+    font-style: bold;
+    font-size: 18px;
+    text-align: center;
 }
 
-.burger img{
-	height: 200px;
-	width: 200px;
+.burger span{
+    font-size: 18px;
+    font-style: bold;
+    font-family: 'Roboto';
+    color: rgb(170, 170, 170);
+}
+
+img{
+    float: left;
+    width: 350px;
+    height: 390px;
+}
+
+.all-menu{
+    font-weight: bold;
+    font-size: 14pt;
+    background: rgb(0, 0, 0);
+    height: 50px;
+    width: 165px;
+    color: rgb(240, 240, 240);
+    border: none;
+    margin-top: 15px;
+    margin-left: 385px;
+}
+
+
+.d20 {
+  width: 10px;
+  height: 10px;
+  margin: 10px auto;
+  background: white;
+  position: relative;
+  border-top: 1px solid mediumturquoise;
+  transform: rotate(45deg);
+  background: rgb(170, 170, 170);
+}
+
+.d20:before {
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: -56px;
+  height: 100%;
+  width: 70px;
+  background: white;
+  border-top: 1px solid rgb(170, 170, 170);
+  transform: rotate(-45deg);
+}
+
+.d20:after {
+  content: "";
+  position: absolute;
+  bottom: 34px;
+  left: 1px;
+  width: 70px;
+  border-bottom: 1px solid rgb(170, 170, 170);
+  transform: rotate(-45deg);
 }
