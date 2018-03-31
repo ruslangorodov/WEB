@@ -1,0 +1,54 @@
+*{
+    background: rgb(220, 190, 185);
+	font-family: Gill Sans Extrabold, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+}
+
+body{
+    margin: 100px 20%;
+}
+
+tr{
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.pack, .parameter{
+    padding: 20px;
+}
+
+.pack{
+	background: rgb(30,35,40);
+    border-right: 1px solid black;
+}
+
+.parameter, .value{
+    min-width: 190px;
+}
+
+.parameter, button{
+    background: linear-gradient(to top, rgb(220,90,75) , rgb(235,105,90));
+}
+
+.value, .button{
+    background: white;
+    border-right: 1px solid rgb(210, 210, 210);
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+.value{
+    padding: 15px;
+    color: black;
+}
+
+button{
+    width: 105px;
+    height: 40px;
+    border: none;
+}
