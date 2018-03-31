@@ -1,0 +1,51 @@
+*{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Gill Sans Extrabold, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+body{
+     margin: 100px 20%;
+}
+
+.smart, .parameter{
+    color: white;
+}
+
+.value, .cost, .price{
+    font-weight: bold;
+}
+
+.smart{
+    background: linear-gradient(to top, rgb(120,190,65) , rgb(160,220,40)); 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.parameter{
+    border-right: 3px solid rgb(160, 220, 40);
+    background: linear-gradient(to top  left, rgb(125,190,70) , rgb(160,220,40)); 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.value{
+    background-color: rgb(220, 245, 200);
+    color: rgb(100, 100, 100);
+}
+
+.price{
+    color: rgb(100, 100, 100);
+}
+
+.cost{
+    color: rgb(155, 180, 55);
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+i{
+     color: rgb(155, 180, 55);
+}
